@@ -1,0 +1,13 @@
+max_steps = 100
+seq_len = 4096
+batch_size = 512
+rollouts_per_example = 8
+
+[model]
+name = "PrimeIntellect/Qwen3-1.7B"
+
+[[env]]
+id = "ronaldnetawat/pacman"
+
+[sampling]
+max_tokens = 1024
